@@ -13,7 +13,7 @@ https://archive.apache.org/dist/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
 # Kick-off Cluster
 1. Clone this repos to your project directory, and `cd hadoop-docker`
 2. If you are in Linux/MAC Just simply run `./run_cluster.sh`
-3. If you are in Windows try run this command `docker build -t hadoop-base:3.2.1 . && docker-compose up`
+3. If you are in Windows try run this command `docker build -t hadoop-base:3.2.1 . && docker compose up`
 
 # How to run MapReduce Job
 1. There is `ratings_breakdown.py` python file in `map_reduce` directory, we can run this file on a local python mode or in Hadoop world
